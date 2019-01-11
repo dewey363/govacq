@@ -1,0 +1,21 @@
+[DriverConfig]
+binary = "E:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+proxyAddr = ""
+headless = true
+showImages = false
+
+[DBConfig]
+#dialect = "mysql"
+#user = "root"
+#password = "root"
+#dbName = "govacq"
+
+dialect = "sqlite3"
+dbName = "govacq.s3db"
+
+[RedisConfig]
+proxyName = "test_proxies"
+addr = "127.0.0.1:6379"
+password = ""
+initDB = 1
+maxActive = 100
